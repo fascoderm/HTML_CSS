@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+body{
+  min-height: 100svh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  background-color: whitesmoke;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#fm{
+  display: block;
+  justify-content: center;
+  border: 1px solid cornsilk;
+  align-items: center;
+  align-content: center;
+  background-color: cornsilk;
+}
+
+#fm img{
+  /* height: 500px; */
+  width: 50px;
+  /* margin: 40px; */
+  margin-left: 40%;
+  margin-top: 2rem;
+}
+
+div{
+  margin: 40px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+div label{
+  padding: 10px;
+  font-family: Josefin Sans;
+}
+
+input{
+  height: 20px;
+  width: 200px;
+  text-align: center;
+}
+
+.btn{
+  /* align-self: center; */
+  padding: 10px;
+  /* line-height: 100%; */
+  margin-left: 40%;
+  height: 40px;
+  width: 80px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.893);
+  color: whitesmoke;
+}
+
+.btn:hover{
+  color: black;
+  background-color: whitesmoke;
+  cursor: pointer;
+}
